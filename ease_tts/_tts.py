@@ -1,7 +1,6 @@
 from gtts import gTTS
 import tempfile
 import os
-import platform
 from playsound import playsound
 
 class TTS:

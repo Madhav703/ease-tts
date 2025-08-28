@@ -6,7 +6,6 @@ A simple Python module for Text-to-Speech using the [gTTS](https://pypi.org/proj
 
 - Python 3.9+  
 - [gTTS](https://pypi.org/project/gTTS/) library  
-- [discord.py](https://pypi.org/project/discord.py/) (for Discord usage example)  
 - An audio player:  
   - **Windows** → Uses default media player  
   - **macOS** → Uses `afplay`  
@@ -17,21 +16,21 @@ A simple Python module for Text-to-Speech using the [gTTS](https://pypi.org/proj
 You can clone the repo and install dependencies in one go:  
 
 ```bash
-git clone https://github.com/Madhav703/python-tts.git
-cd python-tts
+git clone https://github.com/Madhav703/ease-tts.git
+cd ease-tts
 pip install -r requirements.txt
 ```
 
 Or install directly from PyPI:  
 
 ```bash
-pip install python-tts
+pip install ease-tts
 ```
 
 ## Usage  
 
 ```python
-from python_tts import TTS
+from ease_tts import TTS
 
 m = TTS()
 m.play("Hello World")
@@ -70,4 +69,4 @@ This will generate speech and play **Hello World** on your system.
 
 ## Facing any Issues?  
 
-- You can open an issue on the [GitHub](https://github.com/Madhav703/python-tts/issues) repo.  
+- You can open an issue on the [GitHub](https://github.com/Madhav703/ease-tts/issues) repo.  
