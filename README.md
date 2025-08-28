@@ -70,4 +70,4 @@ This will generate speech and play **Hello World** on your system.
 
 ## Facing any Issues?  
 
-- You can open an issue on the GitHub repo.  
+- You can open an issue on the [GitHub](https://github.com/Madhav703/python-tts/issues) repo.  
