@@ -1,11 +1,10 @@
 # Python TTS  
 
-A simple Python module for Text-to-Speech using the [gTTS](https://pypi.org/project/gTTS/) library.  
+Ease-TTS is a simple and lightweight Python module for converting text into speech. It supports playback on Windows, macOS, and Linux. Easy to install and beginner-friendly, it is ideal for accessibility, automation, learning projects, or adding natural voice output to applications.
 
 ## Prerequisites  
 
 - Python 3.9+  
-- [gTTS](https://pypi.org/project/gTTS/) library  
 - An audio player:  
   - **Windows** → Uses default media player  
   - **macOS** → Uses `afplay`  
@@ -37,11 +36,6 @@ m.play("Hello World")
 ```
 
 This will generate speech and play **Hello World** on your system.  
-
-### Notes for Discord usage:
-- Requires **FFmpeg** installed and in system PATH (`ffmpeg -version` to check).  
-- Make sure the bot has **Connect** and **Speak** permissions in the voice channel.  
-- Temporary files are deleted after playback.  
 
 ## Notes  
 

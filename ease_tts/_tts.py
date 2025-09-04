@@ -20,3 +20,16 @@ class TTS:
                 os.remove(filename)
             except OSError:
                 pass
+
+# Todo: Complete this
+
+    # def save(self, text: str) -> str:
+    #     """
+    #     Generate TTS audio and return the filename of a temporary MP3 file.
+    #     Useful for playing in Discord voice channels.
+    #     """
+
+    #     with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
+    #         tts = gTTS(text=text, lang=self.lang)
+    #         tts.save(fp.name)
+    #         return fp.name
